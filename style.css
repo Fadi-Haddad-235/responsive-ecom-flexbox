@@ -116,4 +116,37 @@ button:hover{
     font-size: 20px;
 }
 
+.box:hover .image {
+    opacity: 0.5;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content:space-around;
+    padding-top: 2%;
+    padding-right: 10%;
+    padding-bottom: 2%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(images/background.jpg);
 
+}
+.footer ul{
+    list-style: none;
+    padding-left: 0;
+}
+.footer li{
+    line-height: 3em;
+    
+}
+.footer-right{
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.footer a{
+    text-decoration: none;
+    color: #ea1538;
+}
+.footer h2{
+    color: aliceblue;
+}
